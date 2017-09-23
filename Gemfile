@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby "2.2.4"
+ruby "2.3.1"
 gem 'rails', '~> 4.2'
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'jquery-rails'
